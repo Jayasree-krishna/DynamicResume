@@ -224,10 +224,10 @@ d5.appendChild(document.createElement("HR"));
 function details4(pro)
 {
     var p=document.createElement("p");
-    p.textContent="#"+pro.task1;
+    p.textContent=pro.task1.head+""+pro.task1.Problem+".my role is "+pro.task1.role;
     d5.appendChild(p);
     var p=document.createElement("p");
-    p.textContent="#"+pro.task2;
+    p.textContent=pro.task2.head+""+pro.task2.Problem+".my role is"+pro.task2.role;
     d5.appendChild(p);
 }
 

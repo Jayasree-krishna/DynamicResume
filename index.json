@@ -30,8 +30,16 @@
         "foccupation":"Farmer"
     },
     "projects":{
-        "task1":"I did project about full stack development ",
-        "task2":"I did project about Android development topic is online music"
+        "task1":{
+            "head":"OpenDB Python Library",
+            "Problem":"To Develop a library fro connecting Databases",
+            "role":"Algorithm Development"
+        },
+        "task2":{
+            "head":"Online Music Android App",
+            "Problem":"to listen online music",
+            "role":"Code Development in Java"
+        }
     }
     
 
