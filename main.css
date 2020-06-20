@@ -78,5 +78,9 @@ img{
         display: flex;
         flex-direction: row;
     }
+    .right{
+        width: 95%;
+        padding: 0%;
+    }
     
  }
