@@ -82,5 +82,8 @@ img{
         width: 95%;
         padding: 0%;
     }
+    img{
+        text-align: center;
+    }
     
  }
