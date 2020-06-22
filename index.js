@@ -41,8 +41,7 @@ right.appendChild(h1);
 var pic=document.createElement("div");
 left.appendChild(pic);
 pic.classList.add("picc");
-var hr=document.createElement("hr");
-left.appendChild(hr);
+
 var profile=document.createElement("div");
 left.appendChild(profile);
 profile.classList.add("prof");
@@ -56,7 +55,7 @@ function details(da)
         var name=document.createElement("h2");
         name.setAttribute("id","name");
         name.textContent=da.name;
-        profile.appendChild(name);
+        pic.appendChild(name);
         var email1=document.createElement("h2");
         email1.setAttribute("id","email");
         email1.textContent=da.email;
